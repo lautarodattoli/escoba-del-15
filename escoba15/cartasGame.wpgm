@@ -1,0 +1,23 @@
+import cartas.*
+import wollok.game.*
+
+
+program gameCartas{
+
+	game.width(35)
+    game.height(20)	
+	game.boardGround("fondo.png")
+		
+	game.addVisual(oro1)
+	game.addVisual(oro2)
+	game.addVisual(oro7)
+
+	game.addVisual(mazo)
+	game.addVisual(pos1)
+	game.addVisual(pos2)
+	game.addVisual(pos3)
+	game.addVisual(pos4)
+	game.addVisual(versus)
+	game.start()
+	
+}
